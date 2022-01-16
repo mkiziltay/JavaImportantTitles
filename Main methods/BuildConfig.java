@@ -1,10 +1,22 @@
-package android.support.coreutils;
 
-public final class BuildConfig {
-    public static final String APPLICATION_ID = "android.support.coreutils";
-    public static final String BUILD_TYPE = "release";
-    public static final boolean DEBUG = false;
-    public static final String FLAVOR = "";
-    public static final int VERSION_CODE = -1;
-    public static final String VERSION_NAME = "";
+import java.util.*;
+
+public class Main
+{
+    
+	public static void main(String[] args) {
+	    
+	    ArrayList<String> array = new ArrayList<>(Arrays.asList("one", "two", "three","four","five"));
+	    
+	    String seperator = "-";
+	    
+	    String result = String.join(seperator,array);
+	    
+	    // Creating new String from ArrayList with String.join(item,array) method
+	    
+		System.out.println("Array is :" +array.toString());
+                // ==> Array is :[one, two, three, four, five]
+		System.out.println("with join method result is :" + result);
+                // ==>  result is :one-two-three-four-five
+	}
 }
