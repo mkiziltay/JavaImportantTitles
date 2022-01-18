@@ -12,6 +12,13 @@ public class HelloWorld{
         
         System.out.println(MessageFormat.format("Best {0} of {1}", "FILM", "THE YEAR"));
          //Best FILM of THE YEAR
+          
+        System.out.println(String.format("Local Date: %tD", Calendar.getInstance()));
+          //Local Date: 01/18/22
+        System.out.println(String.format("Local Time: %tT", Calendar.getInstance()));
+          //Local Time: 22:13:00
+        System.out.println(String.format("Local Year: %tY", Calendar.getInstance()));
+          //Local Year: 2022
      }
 }
 /*
