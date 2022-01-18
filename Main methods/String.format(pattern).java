@@ -1,3 +1,5 @@
+import java.text.MessageFormat;
+
 public class HelloWorld{
 
      public static void main(String []args){
@@ -8,10 +10,11 @@ public class HelloWorld{
         System.out.println(String.format(("%.4fc"), (13.34)));
         //=> 13.3400c
         
-        
+        System.out.println(MessageFormat.format("Best {0} of {1}", "FILM", "THE YEAR"));
+         //Best FILM of THE YEAR
      }
 }
-
+/*
 Here, we are providing a table of format specifiers supported by the Java String.
 
 Format Specifier	Data Type	Output
@@ -28,3 +31,4 @@ Format Specifier	Data Type	Output
 %s	any type	String value
 %t	Date/Time (incl. long, Calendar, Date and TemporalAccessor)	%t is the prefix for Date/Time conversions. More formatting flags are needed after this. See Date/Time conversion below.
 %x	integer (incl. byte, short, int, long, bigint)	Hex string.
+*/
