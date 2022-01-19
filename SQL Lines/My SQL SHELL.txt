@@ -1,0 +1,9 @@
+\connect root@localhost:3306
+
+\use javacontactapp
+
+\sql
+
+show tables;
+
+select * from hotel;
