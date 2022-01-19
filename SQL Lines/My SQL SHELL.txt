@@ -1,9 +1,9 @@
-\connect root@localhost:3306
+\connect USER_NAME@HOST_ADDRESS:PORT_NUMBER
 
-\use javacontactapp
+\use DB_NAME
 
 \sql
 
 show tables;
 
-select * from hotel;
+select * from TABLE_NAME;
