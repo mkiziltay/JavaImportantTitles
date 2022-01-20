@@ -1,3 +1,5 @@
 --SELECT first_name AS adı, last_name "soy adı" FROM actor;
 
 --SELECT CONCAT (first_name,' ',last_name) AS "Adı ve Soyadı" FROM actor;
+
+SELECT * FROM laptops where brand LIKE '%' and processor LIKE '%' and gpu LIKE '%';
