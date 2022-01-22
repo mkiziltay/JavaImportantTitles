@@ -8,17 +8,3 @@ show tables;
 
 select * from TABLE_NAME;
 
-
-String sqlCom="INSERT INTO javacontactapp.hotel (name, city, type, adult,children,stars,address,wifi,tv,pool,spa,price) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)"; //javacontactapp.hotel == hotel. Bec. we already Connected to inside of javacontactapp
-		try {
-			PreparedStatement prs=con.prepareStatement(sqlCom);
-			prs.setString(1, name);  prs.setString(2, city);   prs.setString(3, service); prs.setString(4, adult);  
-			prs.setString(5, child);  prs.setString(6, stars);   prs.setString(7, address); prs.setString(8, wifi);   
-			prs.setString(9, tv);  prs.setString(10, pool);   prs.setString(11, spa); prs.setString(12, price);
-			prs.executeUpdate();
-			System.out.println("added succesfully");
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			System.out.println("Error ! : Ekleme Başarısız");
-		}
