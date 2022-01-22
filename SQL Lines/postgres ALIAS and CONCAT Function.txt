@@ -2,4 +2,4 @@
 
 --SELECT CONCAT (first_name,' ',last_name) AS "Adı ve Soyadı" FROM actor;
 
-SELECT * FROM laptops where brand LIKE '%' and processor LIKE '%' and gpu LIKE '%';
+
