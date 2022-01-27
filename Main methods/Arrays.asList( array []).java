@@ -3,11 +3,11 @@ import java.util.*;
 public class aslist {
  
 	public static void main(String[] args) {
-		String array[]= {"Add","Me","in a","List"};
-		Integer array1[]= {75,36,25,34};
+		String array[]= {"Add","Me","in a","List"}; // String Primitive Array
+		Integer array1[]= {75,36,25,34}; // Integer Primitive Array
 		
-        List listeYap=new ArrayList();
-        List listeYap1=new ArrayList();
+        List listeYap=new ArrayList(); //ArrayList -> Polymorphism => List to ArrayList
+        List listeYap1=new ArrayList(); //ArrayList -> Polymorphism => List to ArrayList
         
         listeYap=Arrays.asList(array);
         listeYap1=Arrays.asList(array1);
