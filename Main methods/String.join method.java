@@ -11,6 +11,7 @@ public class Main
 	    String seperator = "-";
 	    
 	    String result = String.join(seperator,array);
+	    // or String result = String.join("-",array);
 	    
 	    // Creating new String from ArrayList with String.join(item,array) method
 	    
