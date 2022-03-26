@@ -11,11 +11,13 @@ public class aslist {
         
         listeYap=Arrays.asList(array);
         listeYap1=Arrays.asList(array1);
+	List<String> titles = Arrays.asList("a", "b", "c", "d"); // Output : [a, b, c, d]
         
         System.out.println("\n"+listeYap.get(0));
         System.out.println(listeYap);
         System.out.println("\n"+listeYap1.get(0));
         System.out.println(listeYap1);
+		
         
 	}
  
