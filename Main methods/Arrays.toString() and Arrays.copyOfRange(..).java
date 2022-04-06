@@ -3,7 +3,8 @@ import java.util.*;
 
 public class ArrayClass {
     
-      public static void main (String[] args) {  
+      public static void main (String[] args) { 
+          
         String[] array = new String[] {"4","3","2","1","0"};
         System.out.println(Arrays.toString(array)); // print original array
         array = Arrays.copyOfRange(array,1,array.length);// remove 0. element
