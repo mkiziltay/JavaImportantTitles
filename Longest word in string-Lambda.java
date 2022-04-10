@@ -7,6 +7,6 @@ public class LongestWorld{
         
         String str = "Hey!!!!! which one is the longest word in this case!";
         String longest = Arrays.stream(str.toLowerCase().replaceAll("[\\p{Punct}]","").split(" ")).max(Comparator.comparing(String::length)).get();
-        System.out.println(longest);
+        System.out.println(longest); // OUTPUT : longest
      }
 }
